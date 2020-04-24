@@ -1,17 +1,41 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>FORD CHENG NAKHONPATHOM</ion-title>
   </ion-navbar>
 </ion-header>
 
+
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+
+  <ion-card (click)="goToPromotionPage()" >
+    <img src="https://scontent.fbkk8-3.fna.fbcdn.net/v/t1.0-9/45729254_2242319259357641_6169713111885414400_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_eui2=AeH2jCrYJFDduac0BFv-rKPalrxypqRp8QyWvHKmpGnxDNBIVfLgXuDIpgomGE97RoXeiCyZY7H-aKe4qX3THrlK&_nc_ohc=GnS3V6SGPKgAX9gYHaP&_nc_ht=scontent.fbkk8-3.fna&oh=bce7c95c5364630d468528aad3adb018&oe=5EC565E6" alt="">
+    <p> ดูโปรโมชั่่น </p>
+  </ion-card>
+
+
+
+  <ion-card (click)="goToRangerPage()"> 
+    <img src="https://www.ford.co.th/content/dam/Ford/website-assets/ap/th/nameplate/ranger-new/Gallery/Exterior/ext-overlay-9.jpg" alt="">
+    <p>FORD RANGER</p>
+  </ion-card>
+
+
+  <ion-card (click)="goToRaptorPage()"> 
+    <img src="https://www.ford.co.th/content/ford/th/th_th/ranger-raptor-content/billboard-carousel/ranger-raptor-landing-page/_jcr_content/par/billboard/imageComponent/image.imgs.full.high.jpg" alt="">
+    <p>FORD RAPTOR</p>
+  </ion-card>
+
+
+  <ion-card (click)="goToEverestPage()"> 
+    <img src="https://www.ford.co.th/content/dam/Ford/website-assets/ap/th/nameplate/everest/everest-new/Gallery/Exterior/2.jpg" alt="">
+    <p> FORD EVEREST </p>
+  </ion-card>
+
+  <ion-card (click)="goToInnovationPage()"> 
+    <img src="https://www.ford.co.th/content/ford/th/th_th/home/engineering/_jcr_content/par/brandgallery/image11/image.imgs.full.high.jpg/1464667982202.jpg" alt="">
+    <p> นวัตกรรม </p>
+  </ion-card>
+
+
 </ion-content>

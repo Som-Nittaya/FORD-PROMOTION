@@ -1,11 +1,26 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+     <h4>เลือกรุ่นรถที่ตรงตามใจคุณ</h4> 
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+    <ion-card (click)="goToRangerPage()" >
+      <img src="https://www.ford.co.th/content/dam/Ford/website-assets/ap/th/nameplate/ranger-new/Gallery/Exterior/ranger-gallery-overlay-3.jpg" alt="">
+      <p>RANGER</p>
+    </ion-card>
+
+    <ion-card (click)="goToRaptorPage()" >
+      <img src="https://www.autoinfo.co.th/wp-content/uploads/2018/07/127.jpg" alt="">
+      <p>RAPTOR</p>
+    </ion-card>
+
+    <ion-card (click)="goToEverestPage()"  > 
+      <img src="https://www.ford.co.th/content/dam/Ford/website-assets/ap/th/nameplate/everest/360/exterior/360-image-1.jpg.dam.full.high.jpg/1569489732780.jpg" alt="">
+      <p>EVEREST</p>
+    </ion-card>
+
 
 </ion-content>
